@@ -1,0 +1,24 @@
+ [WINDOWS]
+cd "moverse entre carpeta
+dir "que hay dentro de la carpeta
+mkdir "crea carpeta
+type "lee tu file en el cmd
+jupyter notebook "abre servidor local para leer el Syllabus, páginas y ver tus archivos desde ahí.
+ctrl+c "keyboard interrupt
+python -m http.server 8889 #Abriendo un servidor local. Número cualquiera: Ideal variar las últimas dos cifras.
+
+[GIT]
+git add <file name> <file name> #este comando los mueve a staging area desde el working directory
+$ git add --all #tmb conocido como $ git add . #Especificando $ git add *.txt #(agrega todos los archivos con esa terminación).
+git commit -m "mensaje" #Esto mueve definitivamente al repo los files q estaban en staging area
+git push #sube el repo a GitHub
+git pull #clona en tu repo local lo que estaba en GitHub
+git clone <link>
+git status #el estado de los archivos sin seguimiento o cambios dentro de los archivos que no han sido agregados y también los archivos que han sido eliminados, estos estados son:
+* working directory: cambios que no están en el seguimiento o archivos que no han sido agregados para ser seguidos.
+* staging area: archivos (o sus cambios) que serán agregados al seguimiento (en algunas ocaciones no queremos subir algunos archivos de inmediato y seleccionamos solo los que nos interesan).
+#muestra que ha pasado y que pasa con los archivos. EJ: modified : README.md
+git log #muestra todos los commits
+git diff #muestra los cambios hechos en los archivos del repo
+
+function GoogleGod() { git add -A; git commit -a -m "$1"; git push; } #$1 This allows you to provide a commit message. It is the argument that U put after the name of the function
